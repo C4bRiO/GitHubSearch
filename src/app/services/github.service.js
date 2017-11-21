@@ -14,8 +14,8 @@ require("rxjs/add/operator/map");
 var GithubService = (function () {
     function GithubService(_http) {
         this._http = _http;
-        this.client_id = ''; //insert your github api client id here
-        this.client_secret = ''; // insert your github api client_Secret here
+        this.client_id = '524e7e6cbd9737b88ce9'; //insert your github api client id here
+        this.client_secret = 'a94b595684a3316b67b33550d66219ff61c0937b'; // insert your github api client_Secret here
         console.log('Github Service Ready');
         //this.username='bradtraversy';
     }
